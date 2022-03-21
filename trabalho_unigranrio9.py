@@ -9,5 +9,9 @@ for x in salarios:
         contador[8] += 1
     else:
         contador[int(x/100) - 2] += 1
-print(44 * '-=')
-print(contador)
+print(30 * '-=')
+for y,z in enumerate(contador):
+    if y == 8:
+        print(f'A quantidade de funcionários com salários maio que 1000 é: {z}')
+    else:
+        print(f'A quantidade de funcionários entre {y + 2}00 - {y + 2}99 é: {z}')
