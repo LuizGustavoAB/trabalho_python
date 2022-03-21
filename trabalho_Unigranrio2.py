@@ -1,0 +1,6 @@
+prova1 = int(input('Coloque o primeiro nota: '))
+prova2 = int(input('Coloque o segundo nota: '))
+prova3 = int(input('Coloque o primeiro nota: '))
+prova4 = int(input('Coloque o segundo nota: '))
+print(30 * '-=')
+print((prova1 + prova2 + prova3 + prova4)/4)
